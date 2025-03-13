@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GenerateCode": {
+      "commandName": "Project",
+      "commandLineArgs": "Template/ABPDtoTemplate.txt\r\nEntity/ClassInfo.cs\r\noutput"
+    }
+  }
+}
