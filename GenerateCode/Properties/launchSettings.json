@@ -2,7 +2,7 @@
   "profiles": {
     "GenerateCode": {
       "commandName": "Project",
-      "commandLineArgs": "Template/ABPDtoTemplate.txt\r\nEntity/ClassInfo.cs\r\noutput"
+      "commandLineArgs": "Template/ABPDtoTemplate.cs\r\n Entity/ClassInfo.cs\r\noutput"
     }
   }
 }

@@ -6,6 +6,7 @@ namespace GenerateCode
     /// <summary>
     /// 班级实体类
     /// </summary>
+    [Description("班级实体")]
     public class ClassInfo
     {
         /// <summary>

@@ -8,9 +8,9 @@ namespace GenerateCode
 
 
     /// <summary>
-     {{description}}
+    //{{description}}
     /// </summary>
-    //[Description("{{description}}")]
+    [Description({{description}})]
     public class {{entity}}Dto
     {
         {{~ for prop in Properties ~}}
@@ -18,17 +18,17 @@ namespace GenerateCode
         {{~ Name = prop.name ~}}
         {{~ Description = prop.description ~}}
          /// <summary>
-          {{Description}}
+         ///{{Description}}
          /// </summary>
         public {{Type}} {{Name}} { get; set; }
         {{~ end ~}}
     }
 
 
-    /// <summary>
-     {{description}}
+      /// <summary>
+    //{{description}}
     /// </summary>
-    //[Description("{{description}}")]
+    [Description({{description}})]
     public class {{entity}}CreateDto
     {
         {{~ for prop in Properties ~}}
@@ -36,16 +36,16 @@ namespace GenerateCode
         {{~ Name = prop.name ~}}
         {{~ Description = prop.description ~}}
          /// <summary>
-          {{Description}}
+         ///{{Description}}
          /// </summary>
         public {{Type}} {{Name}} { get; set; }
         {{~ end ~}}
     }
 
-     /// <summary>
-     {{description}}
+       /// <summary>
+    //{{description}}
     /// </summary>
-    //[Description("{{description}}")]
+    [Description({{description}})]
     public class {{entity}}UpdateDto
     {
         {{~ for prop in Properties ~}}
@@ -53,7 +53,7 @@ namespace GenerateCode
         {{~ Name = prop.name ~}}
         {{~ Description = prop.description ~}}
          /// <summary>
-          {{Description}}
+         ///{{Description}}
          /// </summary>
         public {{Type}} {{Name}} { get; set; }
         {{~ end ~}}
